@@ -1,0 +1,26 @@
+# 忽略编译生成的文件
+*.o
+*.exe
+*.class
+
+# 忽略依赖和库
+node_modules/
+vendor/
+bower_components/
+
+# 忽略环境配置文件
+.env
+
+# 忽略IDE和编辑器配置
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志和临时文件
+*.log
+*.tmp
